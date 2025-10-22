@@ -1,37 +1,32 @@
-<!-- insecure-login.html — DEMO (TIDAK AMAN) -->
 <!doctype html>
 <html lang="id">
 <head>
   <meta charset="utf-8">
-  <title>Demo Login (TIDAK AMAN)</title>
-  <style>
-    body{font-family:Arial;max-width:720px;margin:40px auto;padding:10px}
-    .warn{color:#a00;font-weight:700}
-  </style>
+  <title>Form Mencari Jodoh (AMAN)</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="./mencarijodoh.jpg" width="600" height="400">
-  <h1 class="warn">FORM PENDAFTARAN MENCARI JODOH</h1>
-  <p> Bingung belum punya pacar, dengan mendaftar di form mencari jodoh ini, siap-siap mendapatkan jodoh yang anda dambakan.</p>
+  <div class="container">
+    <h1 class="judul">FORM PENDAFTARAN MENCARI JODOH (AMAN)</h1>
+    <p>Bingung belum punya pacar? Daftarlah sekarang, dan temukan jodoh yang kamu dambakan ❤</p>
 
-  <form id="frm" method="get" action="http://localhost:3000/login">
-    <label>Nama     : <input name="nama" value="amin"></label><br><br>
-    <label>nik      : <input nama="16 angka" value="16 angka"></label><br><br>
-    <label>Alamat   : <input nama="masukan alamat" value="masukan alamat"></label><br><br>
-    <label>Email    : <input name="email" value="user@gmail.com"></label><br><br>
-    <label>Password : <input name="password" value="password123"></label><br><br>
-    <button type="submit">SIGN UP</button>
-  </form>
+    <form id="frm" method="get" action="http://localhost:3000/login">
+      <label>Nama : <input name="nama" placeholder="Nama lengkap"></label><br>
+      <label>NIK : <input name="nik" placeholder="16 angka"></label><br>
+      <label>Alamat : <input name="alamat" placeholder="masukkan alamat"></label><br>
+      <label>Email : <input name="email" placeholder="user@gmail.com"></label><br>
+      <label>Password : <input name="password" placeholder="password123" type="password"></label><br>
+      <button type="submit">SIGN UP</button>
+    </form>
+  </div>
+  <div class="perhatian-box">
 
-  <hr>
   <h3>perhatian :</h3>
   <ul>
     <li>- Saya menyatakan berusia 18 tahun atau lebih.</li>
     <li>- Saya bertanggung jawab atas kebenaran data yang saya berikan.</li>
     <li>- Saya memahami bahwa percakapan/pertemuan dilakukan atas risiko sendiri dan platform tidak bertanggung jawab atas tindakan pengguna lain.</li>
-    <li>- Saya menyetujui Kebijakan Privasi yang menjelaskan bagaimana data disimpan dan dihapus.</li> 
-    <li>- Saya telah membaca dan menyetujui Syarat & Ketentuan layanan ini.</li>
   </ul>
+  </div>
 </body>
 </html>
-

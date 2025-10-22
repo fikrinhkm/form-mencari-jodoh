@@ -1,0 +1,81 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: url("mencarijodoh.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+}
+
+.judul {
+  margin-bottom: 20px;
+  color: #c2185b;
+  font-size: 1.5em;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+form input {
+  width: 95%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #c2185b;
+}
+
+.perhatian-box {
+  position: absolute;
+  top: 20px;         /* jarak dari atas */
+  right: 30px;       /* jarak dari kanan */
+  color: white;      /* warna teks putih */
+  background: rgba(0, 0, 0, 0.4); /* latar belakang gelap transparan */
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.perhatian-box h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.perhatian-box ul {
+  padding-left: 18px;
+  margin: 0;
+}
